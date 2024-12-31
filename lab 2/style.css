@@ -1,0 +1,76 @@
+.block1 {
+    background-color: rgb(230, 223, 244);
+    border: 2px solid black; 
+    padding: 10px;
+    margin: 20px; 
+    border-radius: 8px;
+    width: 100%;
+    max-width: 200px;
+}
+.center
+{
+    flex: content;
+    justify-content: center;
+    justify-items: center;
+}
+.block2 {
+    background-color: rgb(230, 223, 244);
+    border: 2px solid black; 
+    padding: 5em;
+    margin: 10rem; 
+    border-radius: 8px;
+    width: 100%;
+    max-width: 200px;
+}
+form section label{
+    font-size:  12;
+    font-style: italic;
+    color: black;
+}
+section[id="section"] label{
+    color: brown;
+
+}
+input#Submit1  {
+    margin: 2%;
+   background: teal;
+
+}
+input[type="radio"]
+{
+    margin: 5%;
+    opacity: .5;
+}
+textarea[id="comment"]
+{
+background-image: url(/abstract-colorful-geometric-overlapping-background-and-texture-free-vector.jpg);
+}
+.box1
+{
+    display: inline-block;
+    background-color: rgb(229, 255, 0);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    width: 100px;
+    color: rgb(142, 9, 115);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.box2 {
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-color: tomato;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box3 {
+    display: inline;
+    position:absolute ;
+    background-color: bisque;
+    padding: 15px;
+    margin: 25px;
+    border: 5px dashed rgb(216, 197, 22);
+}
