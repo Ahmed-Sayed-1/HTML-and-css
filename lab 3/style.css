@@ -1,0 +1,241 @@
+.center
+{
+    flex: content;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-size: large;
+}
+/* .grades-header, .grades-row {
+    display: grid;
+    grid-template-columns:  20% 20%;
+    border: 2px solid #f1d9d9;
+    padding: 8px;
+    width: 50%;
+    justify-content: space-between;
+    justify-items: center;
+}
+.grades-header {
+    background-color: #cce996e5;
+    font-weight: bold;
+    width: 50%;
+    justify-content: space-between;
+    justify-items: center;
+} */
+.grades-header, .grades-row {
+    display: grid;
+    grid-template-columns:  20% 20%;
+    border: 2px solid #f1d9d9;
+    padding: 8px;
+    width: 50%;
+    justify-content: start;
+   
+}
+.grades-header {
+    font-weight: bold;
+    width: 50%;
+    justify-content: start;
+  
+}
+.imge-header {
+    display: grid;
+    justify-content:space-between;
+    justify-items: 80px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.block2 {
+    background-color: rgb(230, 223, 244); 
+    border-radius: 8px;
+    width: auto;
+    height: auto ;  
+}
+.block {
+    background-color: rgb(230, 223, 244); 
+    border-radius: 8px;
+    width: 300px;
+    height: auto ;  
+}
+.font
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.486);
+}
+.block1{
+    background-color: #ff0019;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+    width: 600px;
+    height: 400px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+/*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Form with Advanced CSS Selectors</h1>
+    </header>
+    <div class="center">
+        <form class="block2" method="post" >
+            <section>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </section>
+            <section id="section">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </section>
+            <section>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </section>
+            <section>
+                <input type="submit" value="Submit" id="Submit1">
+            </section>
+            <section>
+                <input type="radio" name="gender" value="male" id="male" >
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="male">Female</label>
+            </section>
+        </form>
+    </div>
+
+    <footer>
+        <a href="/lab2.html">Terms and Conditions</a>
+    </footer>
+</body>
+</html>
+
+.block1 {
+    background-color: rgb(230, 223, 244);
+    border: 2px solid black; 
+    padding: 10px;
+    margin: 20px; 
+    border-radius: 8px;
+    width: 100%;
+    max-width: 200px;
+}
+.center
+{
+    flex: content;
+    justify-content: center;
+    justify-items: center;
+}
+.block2 {
+    background-color: rgb(230, 223, 244);
+    border: 2px solid black; 
+    padding: 5em;
+    margin: 10rem; 
+    border-radius: 8px;
+    width: 100%;
+    max-width: 200px;
+}
+form section label{
+    font-size:  12;
+    font-style: italic;
+    color: black;
+}
+section[id="section"] label{
+    color: brown;
+
+}
+input#Submit1  {
+    margin: 2%;
+   background: teal;
+
+}
+input[type="radio"]
+{
+    margin: 5%;
+    opacity: .5;
+}
+textarea[id="comment"]
+{
+background-image: url(/abstract-colorful-geometric-overlapping-background-and-texture-free-vector.jpg);
+}
+.box1
+{
+    display: inline-block;
+    background-color: rgb(229, 255, 0);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    width: 100px;
+    color: rgb(142, 9, 115);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.box2 {
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-color: tomato;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box3 {
+    display: inline;
+    position:absolute ;
+    background-color: bisque;
+    padding: 15px;
+    margin: 25px;
+    border: 5px dashed rgb(216, 197, 22);
+}
+*/
+.profile-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 8%;
+    margin-bottom: 15px;
+}
+button
+{
+    width: 150px;
+    height: 35px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    background-color: rgb(240, 186, 167);
+}
+button:hover {
+    background-color: #ff0019;
+    width: 180px;
+   
+}
+td img {
+    border-radius: 20%;
+    padding: 5px;
+    margin: 10px;
+    height: 150px;
+    text-align: center;
+}
+td p {
+    text-align: center;
+}
+td img:hover
+{
+    opacity: .85;
+    width: 100%;
+}

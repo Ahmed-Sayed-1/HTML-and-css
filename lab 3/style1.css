@@ -1,0 +1,11 @@
+p {
+    color: steelblue;
+}
+ul li:first-child {
+    font-weight: bold; 
+    color: #2ecc71; 
+}
+a:hover {
+    color: red; 
+    text-decoration: line-through;
+}
