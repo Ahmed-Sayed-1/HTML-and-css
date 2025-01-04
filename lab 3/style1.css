@@ -3,9 +3,9 @@ p {
 }
 ul li:first-child {
     font-weight: bold; 
-    color: #2ecc71; 
+    color: #ddd; 
 }
 a:hover {
     color: red; 
-    text-decoration: line-through;
+    text-decoration: underline;
 }
